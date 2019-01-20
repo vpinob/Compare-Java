@@ -1,4 +1,5 @@
 import javax.swing.JOptionPane;
+
 public class compareNumero
 {
 	public static void main (String args[])
