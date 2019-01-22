@@ -26,14 +26,14 @@ public class compareNumero
 
 		//se comprar con if los numeros.
 		if (numero1 < numero2)
-			resultado1 = resultado1 + numero1 + " < " + numero2;
+			resultado1 = numero1 + " < " + numero2;
 		if (numero1 > numero2)
-			resultado1 = resultado1 + numero1 + " > " + numero2;
+			resultado1 = numero1 + " > " + numero2;
 		if (numero1 == numero2)
-			resultado1 = resultado1 + numero1 + " == " + numero2;
+			resultado1 = numero1 + " == " + numero2;
 
 		//se despliega la comparacion atraves de un message box.
-		JOptionPane.showMessageDialog( null , resultado1 ,"Resultados De La Comparacion", JOptionPane.PLAIN_MESSAGE);
+		JOptionPane.showMessageDialog( null , resultado1 ,"Comparación", JOptionPane.PLAIN_MESSAGE);
 		System.exit (0);
 	}
 }
